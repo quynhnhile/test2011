@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Text Display</title>
+    <style>
+        /* Background styling */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #00ADEE, #0071BB, #37278E, #8E44AD, #DA70D6, #FF69B4);
+            background-size: 300% 300%;
+            animation: gradient 8s ease infinite;
+            font-family: Arial, sans-serif;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Container styling */
+        .text-container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Text styling */
+        h1 {
+            color: #FFFFFF; /* Solid white color for readability */
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #eee;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="text-container">
+    <h1>Chào mừng ngày 20/11</h1>
+    <p>Ngày Nhà giáo Việt Nam là dịp đặc biệt để những người làm việc trong ngành giáo dục, dù ở bất kỳ vị trí nào, cùng nhau nhìn lại hành trình đã qua. Và cũng là dịp để mọi người gửi lời tri ân đến Người Thầy, Người Cô đã dìu dắt trên con đường tri thức . Với tôi – một cố vấn học tập đã có nhiều năm đồng hành cùng các bạn học viên tham gia học lập trình tại Onschool Bootcamp và Giảng viên, Trợ giảng – ngày này không chỉ là lời cảm ơn tới những người trực tiếp giảng dạy, mà còn là niềm tự hào được góp phần nhỏ bé trong việc hỗ trợ và phát triển con đường tri thức của các bạn học viên. Ở vai trò của mình, tôi không đứng trên bục giảng, nhưng mỗi cuộc trò chuyện cùng học viên, mỗi khoảnh khắc hỗ trợ đồng nghiệp đều là cơ hội để truyền động lực và tinh thần để các bạn học viên vững bước hơn trên con đường sự nghiệp của mình. Nhìn thấy sự thành công của các bạn qua từng khóa học, tôi càng  tự hào, càng thấu hiểu hơn ý nghĩa của công việc mình làm và thêm trân trọng nghề giáo dục mà tôi đã chọn.</p>
+</div>
+
+</body>
+</html>
